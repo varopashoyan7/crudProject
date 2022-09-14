@@ -1,0 +1,49 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+#form {
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+}
+
+#form div {
+    display: flex;
+    margin: auto;
+    border-bottom: 1px dashed;
+    width: 500px;
+    padding-left: 150px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.head {
+    font-weight: bolder;
+    width: 170px;
+
+}
+
+a {
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 3px;
+}
+
+a:hover {
+    background-color: lightblue;
+    color: white;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}

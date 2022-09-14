@@ -1,0 +1,77 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    display: inline-block;
+    padding: 0.46em 1.6em;
+    border: 0.1em solid rgba(91, 91, 91, 0.419);
+    margin: 0 0.2em 0.2em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 300;
+    color: #000000;
+    text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+    background-color: #5aeb61;
+    text-align: center;
+    transition: all 0.15s;
+    border-radius: 4px;
+}
+
+button:hover {
+    text-shadow: 0 0 2em rgba(255, 255, 255, 1);
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+@media all and (max-width:30em) {
+    #edit {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+
+#delete {
+    background-color: rgb(250, 87, 87);
+}
+
+
+table,
+td,
+th {
+    border: 0.4px solid rgba(91, 91, 91, 0.186);
+    border-collapse: collapse;
+    padding: 5px 20px;
+}
+
+table {
+    border-radius: 10px;
+    border-style: hidden;
+    box-shadow: 0 0 0 1px rgba(91, 91, 91, 0.186);
+}
+
+.columns:hover {
+    background-color: rgba(128, 128, 128, 0.174);
+}
+
+#headerCol td {
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 3px;
+}
+
+a:hover {
+    background-color: lightblue;
+    color: white;
+}
+
+tr td img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

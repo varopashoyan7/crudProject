@@ -1,0 +1,6 @@
+{
+  "port": 5000,
+  "jwtSecret": "secret varo pashoyan",
+  "mongoUri": "mongodb+srv://varopashoyan7:xWM334GXHUNUDTlC@cluster0.nf45dhj.mongodb.net/?retryWrites=true&w=majority",
+  "baseUrl": "http://localhost:5000"
+}
